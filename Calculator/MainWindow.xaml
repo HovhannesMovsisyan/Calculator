@@ -1,0 +1,35 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="370" Width="525">
+    <Grid Background="DarkSlateGray">
+        <Canvas Margin="0,10,0,-10" x:Name="board">
+            <Label x:Name="label_result" Background="White" FontSize="44" Content="0" HorizontalContentAlignment="Right" Canvas.Left="69" Canvas.Top="10" Height="67" Width="438"/>
+            <Button x:Name="button" Tag="tiv" Content="7" Canvas.Left="256" Canvas.Top="82" Width="48" Height="48"/>
+            <Button x:Name="button_Copy" Tag="tiv"  Content="8" Canvas.Left="319" Canvas.Top="82" Width="48" Height="48"/>
+            <Button x:Name="button_Copy1" Tag="tiv" Content="9" Canvas.Left="389" Canvas.Top="82" Width="48" Height="48"/>
+            <Button x:Name="button_Copy2" Tag="full" Content="+" Canvas.Left="452" Canvas.Top="82" Width="48" Height="48"/>
+            <Button x:Name="button_Copy3" Tag="tiv" Content="4" Canvas.Left="256" Canvas.Top="135" Width="48" Height="48"/>
+            <Button x:Name="button_Copy4" Tag="tiv" Content="5" Canvas.Left="319" Canvas.Top="135" Width="48" Height="48"/>
+            <Button x:Name="button_Copy5" Tag="tiv" Content="6" Canvas.Left="389" Canvas.Top="135" Width="48" Height="48"/>
+            <Button x:Name="button_Copy6" Tag="full" Content="-" Canvas.Left="452" Canvas.Top="135" Width="48" Height="48"/>
+            <Button x:Name="button_Copy7" Tag="tiv" Content="1" Canvas.Left="256" Canvas.Top="194" Width="48" Height="48"/>
+            <Button x:Name="button_Copy8" Tag="tiv" Content="2" Canvas.Left="319" Canvas.Top="194" Width="48" Height="48"/>
+            <Button x:Name="button_Copy9" Tag="tiv" Content="3" Canvas.Left="389" Canvas.Top="194" Width="48" Height="48"/>
+            <Button x:Name="button_Copy10" Tag="full" Content="*" Canvas.Left="452" Canvas.Top="195" Width="48" Height="48"/>
+            <Button x:Name="button_Copy11" Tag="gorc" Content="." Canvas.Left="256" Canvas.Top="251" Width="48" Height="48"/>
+            <Button x:Name="button_Copy12" Tag="tiv" Content="0" Canvas.Left="319" Canvas.Top="251" Width="48" Height="48"/>
+            <Button x:Name="button_Copy13" Tag="havasar" Content="=" Canvas.Left="389" Canvas.Top="251" Width="48" Height="48"/>
+            <Button x:Name="button_Copy14" Tag="full" Content="/" Canvas.Left="452" Canvas.Top="251" Width="48" Height="48"/>
+            <Button x:Name="button_Copy15" Background="Red" Tag="gorc" Content="C" Canvas.Left="192" Canvas.Top="82" Width="48" Height="48"/>
+            <Button x:Name="button_Copy16" Tag="gorc" Content="back" Canvas.Left="192" Canvas.Top="135" Width="48" Height="48"/>
+            <Button x:Name="button_Copy17" Tag="gorc" Content="+/-" Canvas.Left="192" Canvas.Top="194" Width="48" Height="48"/>
+            <Button  x:Name="button_Copy18" Tag="gorc" Content="BIN" Canvas.Left="192" Canvas.Top="251" Width="48" Height="48"/>
+
+        </Canvas>
+    </Grid>
+</Window>
